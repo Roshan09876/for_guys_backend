@@ -15,9 +15,9 @@ const userSchema = mongoose.Schema({
     phoneNum: {
         type: String,
     },
-    bookedBus: [{
+    bookedHelmet: [{
         type: mongoose.Schema.Types.ObjectId,
-        ref:'Bus'
+        ref:'Helmet'
     }],
     isAdmin: {
         type: String,

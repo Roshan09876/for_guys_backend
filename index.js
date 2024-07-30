@@ -22,7 +22,7 @@ connectDatabase()
 const PORT = process.env.PORT;
 
 app.use("/api", require("./routes/userRoutes"))
-app.use("/api", require("./routes/busRoutes"))
+app.use("/api", require("./routes/helmetRoutes"))
 
 //To check whether the backend is running or not 
 app.listen(PORT, () => {
